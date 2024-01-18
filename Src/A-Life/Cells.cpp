@@ -13,7 +13,7 @@ void Cells::Step()
 	// "draw" onto buffer
 	Write<uint8_t>(buffer, (size.x / 2), 0, 1);
 	// rule 30 = 00011110 (binary)
-	uint8_t rule = 30;
+	uint8_t rule = 60;
 	//uint8_t rule[] = { 0, 1, 1, 1, 1, 0, 0, 0 };
 	// update buffer
 	for (int y = 0; y < size.y - 1; y++)
